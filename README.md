@@ -7,9 +7,11 @@
 応用物理学会　放射線分科会用  
 機械学習の基本コード  
 
-* Regression：回帰のサンプル  
+* Regression：回帰のニューラルネットワークサンプル  
+* RegressionConv：回帰の畳み込みニューラルネットワークサンプル  
   
-* Classification：分類のサンプル  
+* Classification：分類のニューラルネットワークサンプル  
+* ClassificationConv：分類の畳み込みニューラルネットワークサンプル  
 
 ※初学者を対象とした最小限のコードとしています
 
@@ -49,7 +51,9 @@ seaborn 0.11.2
 
 300エポックの学習の後、「model.pth」が生成される    
 
-
+※一般に学習データや重み係数はランダムとするため実行するたびに結果が変わります  
+　常に同じ結果を出したい場合は「train_IniWeightFixed.py」を実行してください
+ 
 
 ## 推論
 <img width="200" alt="Reg" src="https://user-images.githubusercontent.com/106053283/169779535-2be8ab64-5193-4e6c-86fb-fa1243e5e5db.jpg">
